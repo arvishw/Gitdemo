@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-10T15:58:43 IST" name="Loan Department" finished-at="2024-02-10T15:58:48 IST" duration-ms="5247">
+    <groups>
+    </groups>
+    <test started-at="2024-02-10T15:58:43 IST" name="Personal Loan" finished-at="2024-02-10T15:58:43 IST" duration-ms="86">
+      <class name="test.testdemo1">
+        <test-method is-config="true" signature="prerequest()[pri:0, instance:test.testdemo1@33990a0c]" started-at="2024-02-10T15:58:43 IST" name="prerequest" finished-at="2024-02-10T15:58:43 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequest -->
+        <test-method signature="demotestng1()[pri:0, instance:test.testdemo1@33990a0c]" started-at="2024-02-10T15:58:43 IST" name="demotestng1" finished-at="2024-02-10T15:58:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demotestng1 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:test.testdemo1@33990a0c]" started-at="2024-02-10T15:58:43 IST" name="aftertest" finished-at="2024-02-10T15:58:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- test.testdemo1 -->
+      <class name="test.testngdemo">
+        <test-method signature="demo1()[pri:0, instance:test.testngdemo@3d1cfad4]" started-at="2024-02-10T15:58:43 IST" name="demo1" finished-at="2024-02-10T15:58:43 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- test.testngdemo -->
+      <class name="test.homeloan">
+        <test-method signature="apilogincarloan()[pri:0, instance:test.homeloan@4de4b452]" started-at="2024-02-10T15:58:43 IST" name="apilogincarloan" finished-at="2024-02-10T15:58:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apilogincarloan -->
+        <test-method signature="applogincarloan()[pri:0, instance:test.homeloan@4de4b452]" started-at="2024-02-10T15:58:43 IST" name="applogincarloan" finished-at="2024-02-10T15:58:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applogincarloan -->
+        <test-method signature="webloginhomeloan()[pri:0, instance:test.homeloan@4de4b452]" started-at="2024-02-10T15:58:43 IST" name="webloginhomeloan" finished-at="2024-02-10T15:58:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
+      </class> <!-- test.homeloan -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2024-02-10T15:58:48 IST" name="carloan" finished-at="2024-02-10T15:58:48 IST" duration-ms="23">
+      <class name="test.carloan">
+        <test-method signature="apilogincarloan()[pri:0, instance:test.carloan@618425b5]" started-at="2024-02-10T15:58:48 IST" name="apilogincarloan" finished-at="2024-02-10T15:58:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apilogincarloan -->
+        <test-method signature="applogincarloan()[pri:0, instance:test.carloan@618425b5]" started-at="2024-02-10T15:58:48 IST" name="applogincarloan" finished-at="2024-02-10T15:58:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applogincarloan -->
+        <test-method signature="weblogincarloan(java.lang.String)[pri:0, instance:test.carloan@618425b5]" started-at="2024-02-10T15:58:48 IST" name="weblogincarloan" finished-at="2024-02-10T15:58:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincarloan -->
+      </class> <!-- test.carloan -->
+    </test> <!-- carloan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
